@@ -1,0 +1,18 @@
+@import "tailwindcss";
+
+* {
+    font-family: 'Poppins', sans-serif;
+}
+
+body.disable-interactions,
+body.disable-interactions * {
+    -webkit-user-select: none;
+    user-select: none;
+}
+
+body.disable-interactions input,
+body.disable-interactions textarea,
+body.disable-interactions [contenteditable='true'] {
+    -webkit-user-select: text;
+    user-select: text;
+}
