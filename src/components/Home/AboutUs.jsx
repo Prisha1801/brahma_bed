@@ -63,7 +63,7 @@ const AboutUs = () => {
                         </p>
 
                         <Link
-                            to="/"
+                            to="/president-desk"
                             className="inline-block bg-green-600 hover:bg-green-700 text-white font-bold text-sm px-6 py-3 rounded transition-colors duration-200"
                         >
                             Read More
