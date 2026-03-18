@@ -247,20 +247,20 @@ const Navbar = () => {
         { label: "Brahma Valley Of Education(Bed)", link: "/brahma-valley-of-education" },
         { label: "Principal Message", link: "/principal-desk" },
         { label: "Vision & Mission", link: "/vision-mission" },
-        { label: "Silent Features", link: "/salient-features" },
-        { label: "Faculty", link: "/faculty" },
-        { label: "Committees", link: "/committees" },
+        { label: "Salient Features", link: "/salient-features" },
+        { label: "Faculty", link: "#" },
+        { label: "Committees", link: "#" },
         { label: "NCTE Recognition & Revise Order", link: "/ncte" },
-        { label: "Government Permission", link: "/government-permission" },
-        { label: "Award Received", link: "/awards" },
-        { label: "Approvals & Affiliation", link: "/approvals-affiliation" },
+        { label: "Government Permission", link: "#" },
+        { label: "Award Received", link: "#" },
+        { label: "Approvals & Affiliation", link: "#" },
 
       ],
     },
     {
       title: "GOVERNANCE",
       items: [
-        { label: "Local Development Committee", link: "/" },
+        { label: "Local Development Committee", link: "#" },
         { label: "Internal Quality Assurance Cell", link: "/iqac" },
         { label: "Right To Information", link: "/rti" },
         { label: "Equal Opportunity Cell", link: "/equal-opportunity-cell" },
@@ -283,47 +283,47 @@ const Navbar = () => {
             {
               title: "ANNUAL PLAN",
               items: [
-                { label: "First Year (FY)", link: "/" },
-                { label: "Second Year (SY)", link: "/" },
+                { label: "First Year (FY)", link: "#" },
+                { label: "Second Year (SY)", link: "#" },
               ]
             },
             {
               title: "FEEDBACK",
               items: [
-                { label: "STUDENT FEEDBACK", link: "/" },
-                { label: "INTERNSHIP FEEDBACK", link: "/" },
-                { label: "TEACHER FEEDBACK", link: "/" },
+                { label: "STUDENT FEEDBACK", link: "#" },
+                { label: "INTERNSHIP FEEDBACK", link: "#" },
+                { label: "TEACHER FEEDBACK", link: "#" },
               ]
             },
           ],
         },
-        { label: "AVAILABLE TEACHING METHOD", link: "/teaching-methods" },
+        { label: "AVAILABLE TEACHING METHOD", link: "#" },
         {
           title: "SYLLABUS",
           items: [
             {
               label: "PLO & CLO",
-              link: "/"
+              link: "#"
             }
           ],
         },
-        { label: "STUDENT ELIGIBILITY", link: "/" },
+        { label: "STUDENT ELIGIBILITY", link: "#3" },
         {
           title: "LESSON DEPARTMENT",
           items: [
-            { label: "LIST OF SCHOOL", link: "/" },
-            { label: "FY", link: "/" },
-            { label: "SY", link: "/" },
+            { label: "LIST OF SCHOOL", link: "#" },
+            { label: "FY", link: "#" },
+            { label: "SY", link: "#" },
           ],
         },
-        { label: "BED CET INTER-SC-MERIT", link: "/" },
-        { label: "ROUND MERIT LIST", link: "/" },
+        { label: "BED CET INTER-SC-MERIT", link: "#" },
+        { label: "ROUND MERIT LIST", link: "#" },
       ],
     },
     {
       title: "Admission",
       items: [
-        { label: "COURSE DETAILS & ELIGIBILITY", link: "/" },
+        { label: "COURSE DETAILS & ELIGIBILITY", link: "#" },
         { label: "ADMISSION FORM", link: "/pdf/Admission Form.pdf", external: true },
         { label: "RESERVATION POLICY", link: "/pdf/Central State Gov Reservation policy 1.3 (1).pdf", external: true },
         { label: "FEES STRUCTURE", link: "/pdf/Fees.pdf", external: true },
@@ -336,21 +336,21 @@ const Navbar = () => {
     {
       title: "FACILITIES",
       items: [
-        { label: "INFRASTRUCTURE", link: "/infrastructure" },
+        { label: "INFRASTRUCTURE", link: "#" },
         { label: "LIBRARY", link: "/library" },
-        { label: "LABORATARY", link: "/laboratory" },
+        { label: "LABORATARY", link: "#" },
         { label: "GYMNASIUM & SPORT", link: "/gymnasium-sport" },
         { label: "TRANSPORT", link: "/transport" },
-        { label: "AUDIO & VIDEO", link: "/audio-video" },
+        { label: "AUDIO & VIDEO", link: "#" },
 
       ],
     },
     {
       title: "STUDENT CORNER",
       items: [
-        { label: "STUDENTS ACHIEVEMENT", link: "/" },
-        { label: "STUDY MATERIAL", link: "/" },
-        { label: "MOU’S", link: "/" },
+        { label: "STUDENTS ACHIEVEMENT", link: "#" },
+        { label: "STUDY MATERIAL", link: "#" },
+        { label: "MOU’S", link: "#" },
       ],
     },
     {
@@ -360,7 +360,7 @@ const Navbar = () => {
           title: "Examination",
           items: [
             { label: "Exam Time Table", link: "/exam-timetable" },
-            { label: "EXAMINATION OFFICER", link: "/" },
+            { label: "EXAMINATION OFFICER", link: "#" },
             { label: "RESULT", link: "/result" },
             { label: "ACADEMIC CALENDER", link: "/academic-calendar" },
             { label: "ACHIEVEMENT", link: "/achievement" },
@@ -371,40 +371,40 @@ const Navbar = () => {
         {
           title: "TRAINING & PLACEMENT",
           items: [
-            { label: "CULTURAL", link: "/" },
-            { label: "SPORTS", link: "/" },
-            { label: "FIELD VISIT/ STUDY TOUR", link: "/" },
-            { label: "ART AND CRAFT", link: "/" },
-            { label: "MUSIC", link: "/" },
-            { label: "RESEARCH AND PUBLICATION", link: "/" },
-            { label: "INNOVATION PUBLICATIONS", link: "/" },
-            { label: "EXTENSION ACTIVITIES", link: "/" },
-            { label: "SUCCESS STORIES", link: "/" },
-            { label: "PLACEMENT CELL", link: "/" },
+            { label: "CULTURAL", link: "#" },
+            { label: "SPORTS", link: "#" },
+            { label: "FIELD VISIT/ STUDY TOUR", link: "#" },
+            { label: "ART AND CRAFT", link: "#" },
+            { label: "MUSIC", link: "#" },
+            { label: "RESEARCH AND PUBLICATION", link: "#" },
+            { label: "INNOVATION PUBLICATIONS", link: "#" },
+            { label: "EXTENSION ACTIVITIES", link: "#" },
+            { label: "SUCCESS STORIES", link: "#" },
+            { label: "PLACEMENT CELL", link: "#" },
           ],
         },
         {
           title: "ALUMNI",
           items: [
             { label: "REGISTRATION FORM", link: "/pdf/registration-form.pdf", external: true },
-            { label: "CERTIFICATE", link: "/" },
+            { label: "CERTIFICATE", link: "#" },
           ],
         },
         {
           title: "IQAC",
           items: [
-            { label: "ACCREDITATION", link: "/" },
-            { label: "SSR", link: "/" },
-            { label: "IQAC CELL", link: "/" },
-            { label: "ACADEMIC MONITORING COMMITTEE", link: "/" },
+            { label: "ACCREDITATION", link: "#" },
+            { label: "SSR", link: "#" },
+            { label: "IQAC CELL", link: "#" },
+            { label: "ACADEMIC MONITORING COMMITTEE", link: "#" },
             { label: "NAAC DOCUMENTS", link: "/naac-documents" },
           ],
         },
         {
           title: "MEDIA",
           items: [
-            { label: "PHOTOS", link: "/photos" },
-            { label: "VIDEO", link: "/videos" },
+            { label: "PHOTOS", link: "#" },
+            { label: "VIDEO", link: "#" },
           ],
         },
         { label: "CONTACT", link: "/contact" },

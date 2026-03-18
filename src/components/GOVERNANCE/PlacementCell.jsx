@@ -10,9 +10,7 @@ const PlacementCell = () => {
             heroData={data.heroData}
             title={data.title}
             description={data.description}
-            members={data.members}
-            downloadButtonText={data.downloadButtonText}
-            pdfPath={data.pdfPath}
+            documents={data.documents || []}
         />
     );
 };

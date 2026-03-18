@@ -44,28 +44,6 @@ export const ncteHero = {
     overlay: true,
 };
 
-export const governmentPermissionHero = {
-    backgroundImage: brahmaValleyOfEducationHeroImage,
-    title: "Government Permissions",
-    subtitle: "Official documentation and approvals from government bodies.",
-    overlay: true,
-};
-
-export const awardReceivedHero = {
-    backgroundImage: brahmaValleyOfEducationHeroImage,
-    title: "Award Received",
-    subtitle: "Recognition and achievements earned by our institution.",
-    overlay: true,
-};
-
-export const approvalsAffiliationHero = {
-    backgroundImage: brahmaValleyOfEducationHeroImage,
-    title: "Approvals & Affiliation",
-    subtitle: "Official recognition and affiliations with academic bodies.",
-    overlay: true,
-};
-
-
 
 export const principalDeskHero = {
     backgroundImage: PresidentDeskHeroImage,
@@ -91,23 +69,6 @@ export const salientFeaturesHero = {
     overlay: true,
 };
 
-import FacultyHeroImage from "/images/facultyHero.webp"
-export const facultyHero = {
-    backgroundImage: FacultyHeroImage,
-    title: "Faculty",
-    subtitle: "Discover excellence in education and innovation.",
-    overlay: true,
-};
-
-import committeesHeroImage from "/posters/committeeHeroImage.jpg"
-export const committeesHero = {
-    backgroundImage: committeesHeroImage,
-    title: "Committees",
-    subtitle: "Discover excellence in education and innovation.",
-    overlay: true,
-    data: [
-    ],
-};
 
 
 import facilityHeroImage from "/images/facilityHero.jpg"

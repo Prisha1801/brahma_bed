@@ -88,8 +88,8 @@ const Contact = () => {
                             </p>
                             <p className="text-sm text-gray-700">
                                 <span className="font-bold text-purple-600">E-mail:</span>{' '}
-                                <a href="mailto:principal.bvcte.0778@gmail.com" className="underline text-gray-700 hover:text-blue-600">
-                                    principal.bvcte.0778@gmail.com
+                                <a href="mailto:vinodraut994@gmail.com" className="underline text-gray-700 hover:text-blue-600">
+                                    vinodraut994@gmail.com
                                 </a>
                             </p>
                         </div>
